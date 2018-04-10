@@ -1,0 +1,521 @@
+@charset "utf-8";
+/*----This script is created by Sagunesh Grover---*/
+/* CSS Document */
+/*---Basic Website Structure--*/
+#main{
+	width:100%;
+	height:100%;
+	border:2px solid #3B5999;
+}
+#header{
+	width:99.7%;
+	height:14.9%;
+	background-color:#3B5999;
+	position:absolute;
+	top:0%;
+	left:2px;
+}
+
+#sidebar{
+	width:20%;
+	height:70%;
+	border:2px solid #3B5999;
+	border-bottom-color:#FFF;
+	position:absolute;
+	top:15%;
+	left:0%;
+	float:left;
+}
+#sidebar_main_login{
+	width:20%;
+	height:627px;
+	border:2px solid #3B5999;
+	border-bottom-color:#FFF;
+	position:absolute;
+	top:15%;
+	left:0%;
+	float:left;
+}
+#sidebar_main_home{
+	width:20%;
+	height:958px;
+	border:2px solid #3B5999;
+	border-bottom-color:#FFF;
+	position:absolute;
+	top:15%;
+	left:0%;
+	float:left;
+}
+#sidebar_main_search{
+	width:20%;
+	height:967px;
+	border:2px solid #3B5999;
+	border-bottom-color:#FFF;
+	position:absolute;
+	top:15%;
+	left:0%;
+	float:left;
+}
+#navbar{
+	width:79.65%;
+	height:4%;
+	background-color:#3B5999;
+	border-right:2px solid #3B5999;
+	position:absolute;
+	top:15%;
+	left:20.2%;
+	margin:auto;
+}
+#navbar_login{
+	width:99.7%;
+	height:4%;
+	background-color:#3B5999;
+	border:2px solid #3B5999;
+	position:absolute;
+	top:15%;
+	left:0%;
+	margin:auto;
+}
+#content{
+	width:79.62%;
+	height: 66%;
+	border-bottom: 2px solid #3B5999;
+	border-right: 2px solid #3B5999;
+	position: absolute;
+	top: 19%;
+	left: 20.2%;
+	
+}
+#content_main_login{
+	width:79.62%;
+	height: 600px;
+	border-bottom: 2px solid #3B5999;
+	border-right: 2px solid #3B5999;
+	position: absolute;
+	top: 19%;
+	left: 20.2%;
+	
+}
+#content_login{
+	width: 100%;
+	height: 66%;
+	border-bottom: 2px solid #3B5999;
+	border-left: 2px solid #3B5999;
+	border-right: 2px solid #3B5999;
+	position: absolute;
+	top: 19%;
+	left:0;
+	
+}
+#content_main_search{
+	width:79.62%;
+	height: 940px;
+	border-bottom: 2px solid #3B5999;
+	border-right: 2px solid #3B5999;
+	position: absolute;
+	top: 19%;
+	left: 20.2%;
+	
+}
+#content_main_home{
+	width:79.62%;
+	height: 930px;
+	border-bottom: 2px solid #3B5999;
+	border-right: 2px solid #3B5999;
+	position: absolute;
+	top: 19%;
+	left: 20.2%;
+	
+}
+#footer{
+	width:99.7%;
+	height:14.9%;
+	border-bottom:2px solid #3B5999;
+	border-left:2px solid #3B5999;
+	border-right:2px solid #3B5999;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+}
+#footer_main_login{
+	width:99.7%;
+	height:14.9%;
+	border-bottom:2px solid #3B5999;
+	border-left:2px solid #3B5999;
+	border-right:2px solid #3B5999;
+	position:absolute;
+	top:730px;
+	left:0px;
+}
+#footer_main_home{
+	width:99.7%;
+	height:14.9%;
+	border-bottom:2px solid #3B5999;
+	border-left:2px solid #3B5999;
+	border-right:2px solid #3B5999;
+	position:absolute;
+	top:1064px;
+	left:0px;
+}
+#footer_main_search{
+	width:99.7%;
+	height:14.9%;
+	border-bottom:2px solid #3B5999;
+	border-left:2px solid #3B5999;
+	border-right:2px solid #3B5999;
+	position:absolute;
+	top:1070px;
+	left:0px;
+}	
+
+/*---White Links In header-----*/
+a.white:link {
+	color: white; font-weight:normal; 
+	}
+a.white:active {
+	color: white; font-weight:normal;
+    }
+a.white:visited {
+	color: white; font-weight:normal; 
+	}
+a.white:hover {
+	color: white;  font-weight:normal;
+	}
+/*---Buttons-----*/
+.myButton {
+	background-color:#5688DF;
+        display:inline-block;
+	color:#FEFEFE;
+	font-family:arial;
+	font-size:15px;
+	font-weight:normal;
+	padding:5px 20px;
+	text-decoration:none;
+    
+}.myButton:active {
+	position:relative;
+	top:1px;
+}
+/*----Link Blue Colours in footer----*/
+a.blue:link {
+	color: #3C5A9A; background: #ffffff; font-weight: normal;
+	}
+a.blue:active {
+	color: #3C5A9A; background: #ffffff; font-weight: normal;
+	}
+a.blue:visited {
+	color: #3C5A9A; background: #ffffff; font-weight: normal;
+	}
+a.blue:hover {
+	color: #3C5A9A; background: #ffffff; font-weight: normal;
+	}
+/*------link Color in Menu Bar ---------*/
+a.blue1:link {
+	color: #5784D7; background: #ffffff; font-weight: normal;
+	}
+a.blue1:active {
+	color: #5784D7; background: #ffffff; font-weight: normal;
+	}
+a.blue1:visited {
+	color: #5784D7; background: #ffffff; font-weight: normal;
+	}
+a.blue1:hover {
+	color: #5784D7; background: #ffffff; font-weight: normal;
+	}
+	
+button.white{
+	background-color:#3B5999;
+	color:#FFF;
+	border:none;
+}
+.textbox_edit{
+	font-family: Verdana; 
+	font-weight: bold; 
+	font-size: 12px; 
+	background-color:#D8DEEA;
+	width:95%;
+	border-color:#000000; 
+	border-width:1px;
+}
+.textbox_edit1{
+	font-family: Verdana; 
+	font-weight: bold; 
+	font-size: 12px; 
+	background-color:#D8DEEA;
+	width:50%;
+	border-color:#000000; 
+	border-width:1px;
+}
+
+	
+/*---Content Postition in body----*/	
+#header_container{
+	width:50%;
+	height:100%;
+	margin:auto;
+	position:absolute;
+	top:0px;
+	left:25%;
+}
+#footer_container{
+	width:50%;
+	position:absolute;
+	top:5px;
+	left:25%;
+}
+#profile_pic{
+	width:34%;
+	float:left;
+	position:absolute;
+	left:2%;
+	top:20px;
+}
+#profile_options{
+	width:34%;
+	position:absolute;
+	left:2%;
+	top:420px;
+}
+#profile_details{
+	width:64%;
+	position:absolute;
+	right:2%;
+	top:20px;
+}
+/*Jquery edit textboxes*/
+.add{
+	display:none;
+}
+.add_pic{
+	display:none;
+}
+/*css for search  page*/
+#search_container{
+	width:96%;
+	height:800px;
+	float:left;
+	position:absolute;
+	left:2%;
+	top:20px;
+}
+#search_fields{
+	width:94%;
+	float:left;
+	position:absolute;
+	left:2%;
+	top:80px;
+	background-color:#CCC;
+
+}
+#output_search{
+	width:94%;
+	height:800px;
+	float:left;
+	position:absolute;
+	left:2%;
+	top:150px;
+	/*border:1px solid #3B5999;*/
+}
+/*#pagenization{
+	width:94%;
+	height:28px;
+	float:left;
+	position:absolute;
+	left:2%;
+	top:120px;
+	border:1px solid #3B5999;}*/
+
+
+/*--Pagenization CSS-----*/
+.pagNumActive {
+    color: #fff;
+    border:#3B5999 1px solid; background-color: #3B5999; padding-left:3px; padding-right:3px;
+}
+.paginationNumbers a:link {
+    color: #000;
+    text-decoration: none;
+    border:#3B5999 1px solid; background-color:#fff; padding-left:3px; padding-right:3px;
+}
+.paginationNumbers a:visited {
+    color: #000;
+    text-decoration: none;
+    border:#999 1px solid; background-color:#F0F0F0; padding-left:3px; padding-right:3px;
+}
+.paginationNumbers a:hover {
+    color: #000;
+    text-decoration: none;
+    border:#3B5999 1px solid; background-color: #fff; padding-left:3px; padding-right:3px;
+}
+.paginationNumbers a:active {
+    color: #000;
+    text-decoration: none;
+    border:#3B5999 1px solid; background-color:#F0F0F0; padding-left:3px; padding-right:3px;
+}
+/*ajax side bar search */
+#searchid
+	{
+		width:210px;
+		border:solid 1px #000;
+		font-size:14px;
+	}
+	#result
+	{
+		position:absolute;
+		left:20px;
+		width:202px;
+		padding:4px;
+		display:none;
+		margin-top:-1px;
+		border-top:0px;
+		overflow:hidden;
+		border:1px #CCC solid;
+		background-color: white;
+	}
+	.show
+	{
+		padding:10px; 
+		border-bottom:1px #999 dashed;
+		font-size:15px; 
+		height:50px;
+	}
+	.show:hover
+	{
+		background:#4c66a4;
+		color:#FFF;
+		cursor:pointer;
+	}
+	
+/*---teacher notes box container---*/	
+	#teacher_msg_container{
+		border:1px solid #000;
+		width:96%;
+		height:450px;
+		position:absolute;
+		top:130px;
+		left:2%;
+		right:2%;
+		background-color:#CCC;
+		
+	}
+	#teacher_checkbox_container{
+		border:1px solid #000;
+		width:98%;
+		height:40px;
+		position:absolute;
+		top:10px;
+		left:1%;
+		right:1%;
+		background-color:#FFF;
+		
+		
+	}
+	#teacher_textarea_container{
+		border:1px solid #000;
+		width:98%;
+		height:378px;
+		position:absolute;
+		top:60px;
+		left:1%;
+		right:1%;
+		background-color:#FFF;
+		
+		
+	}
+	
+	/*------Progress Bar ---------*/
+	.pace .pace-progress {
+  background: #fff;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  left: 0;
+  height: 2px;
+
+  -webkit-transition: width 1s;
+  -moz-transition: width 1s;
+  -o-transition: width 1s;
+  transition: width 1s;
+}
+
+.pace-inactive {
+  display: none;
+}
+	/*------Home Details ---------*/
+.slidercontainer{
+	width:200px;
+	height:100px;
+	position:absolute;
+	left:25px;
+	top:25px;
+	}
+.newsslidercontainer{
+	width:320px;
+	height:400px;
+	position:absolute;
+	right:30px;
+	top:25px;
+	}
+.jobsslidercontainer{
+	width:200px;
+	height:10px;
+	position:absolute;
+	left:25px;
+	top:480px;
+	}
+.teacherpost{
+	width:950px;
+	height:10px;
+	position:absolute;
+	left:25px;
+	top:680px;
+}
+/*-------myinfo--------*/
+#personalinfo{
+	width:950px;
+	position:absolute;
+	left:25px;
+	top:75px;
+	
+	
+}#permanentaddress{
+	width:316px;
+	position:absolute;
+	left:25px;
+	top:350px;
+	
+}
+#correspondingaddress{
+	width:316px;
+	position:absolute;
+	left:342px;
+	top:350px;
+	
+}
+#hosteladdress{
+	width:316px;
+	position:absolute;
+	left:659px;
+	top:350px;
+	
+}
+#undertaking{
+	width:950px;
+	position:absolute;
+	left:25px;
+	top:575px;
+	
+}
+#infobtn{
+	width:100px;
+	position:absolute;
+	left:405px;
+	top:670px;
+	
+}
+/*-------myaccount--------*/
+#myaccount{
+	width:950px;
+	position:absolute;
+	left:25px;
+	top:75px;
+	
