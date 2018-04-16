@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+#main{
+	width:100%;
+	/*height:1225px;*/
+	border:1px solid #000;
+}
+#heading{
+	width:100%;
+	/*height:50px;*/
+	margin:1px;
+}
+#top_left{
+	width:20%;
+	height:50px;
+	margin-left:1%;
+	float:left;
+	
+}
+#heading_sub{
+	width:100%;
+	height:350px;
+	margin:1px;
+}
+#title{
+	width:50%;
+	height:100px;
+	
+}
+#logo{
+	width:30%;
+	height:170px;
+	
+}
+#gradesheet{
+	width:30%;
+	height:30px;
+	
+}
+#semester{
+	width:50%;
+	height:50px;
+}
+#name{
+	width:100%;
+	height:50px;
+	margin:1px;
+}
+#name_left{
+	width:35%;
+	height:50px;
+	margin-left:1%;
+	
+}
+#mainbody{
+	width:100%;
+	height:550px;
+	margin:1px;
+}
+#bodytable{
+	width:98%;
+	height:550px;
+	margin-left:1%;
+	margin-right:2%;
+	
+}
+#mainfooter{
+	width:100%;
+	/*height:193px;*/
+	margin:1px;
+}
+
+#coe{
+	width:35%;
+	height:50px;
+	margin-left:1%;
+	float:left;	
+	position:absolute;
+	right:4%;
+	
+}
+#address{
+	width:98%;
+	height:50px;
+	margin-left:1%;
+	
+}
+	
+	
+
